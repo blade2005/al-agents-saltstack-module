@@ -6,7 +6,7 @@ sudo: required
 
 before_install:
   - sudo apt-get update
-  - curl -L http://bootstrap.saltstack.org | sudo sh -s -- git develop
+  - curl -L http://bootstrap.saltstack.org | sudo sh -s --
 
 install:
   # Copy these states
